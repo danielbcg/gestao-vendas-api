@@ -1,0 +1,38 @@
+# Dependências e compilações Node/React
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Dependências e compilações Java/Maven
+target/
+*.class
+
+# Variáveis e configurações locais sensíveis
+.env
+.env.*
+application-local.properties
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs e editores
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Garantir que a planilha de exemplo e dados não sejam ignorados
+!data/vendas_maria.xlsx
+
+# Banco de dados local (H2)
+data/*.db
+data/*.trace.db
